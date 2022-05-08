@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: white;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 10;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+#navItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+#fullImage {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.stepContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.stepText {
+    box-sizing: border-box;
+    width: 45%;
+    font-size: x-large;
+    padding: 20px;
+}
+
+.stepImage {
+    width: 45%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.imageOverlay {
+    position: absolute;
+    z-index: 5;
+    max-width: 50%;
+    top: 50px;
+    left: 0px;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-bottom-right-radius: 25px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#pfpImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#siteContent {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+.screenView {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view {
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: 1px solid rgb(206, 206, 206) ;
+}
+
+.footer {
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(206, 206, 206);
+    margin-top: 30px;
+}
